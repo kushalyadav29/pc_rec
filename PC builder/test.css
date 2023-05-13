@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: x-large;
+}
+header{
+    display: flex;
+    position: fixed;
+}
+.logo
+{
+    border: 2px solid black;
+    display: inline-block;
+}
+.logo > img{
+    height: 10vh;
+    width: 10vw;
+    border-radius: 50%;
+}
+.navbar
+{
+    border: 2px solid red;
+    height: 10vh;
+    width: 90vw;
+}
+.navbar ul{
+    padding-left: 4vw;
+    padding-top: 2vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.navbar li{
+    padding-right: 4vw;
+}
